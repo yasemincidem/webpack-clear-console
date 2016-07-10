@@ -1,5 +1,5 @@
 /**
- * Webpack configuration
+ * Webpack configuration for plugin
  */
 var path = require("path");
 var WebpackRemoveLog = require("../index").WebpackRemoveLog;
