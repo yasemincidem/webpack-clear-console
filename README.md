@@ -13,7 +13,7 @@ You can see an example at demo/webpack.config.js.
 ### Basic
 
 ```js
-var WebpackRemoveLog = require("webpack-remove-log").WebpackRemoveLog;
+var WebpackRemoveLog = require("webpack-remove-log-plugin").WebpackRemoveLog;
 
 module.exports = {
  plugins: [
