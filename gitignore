@@ -1,0 +1,11 @@
+\.git
+
+\.project
+bower_components
+node_modules
+npm-debug\.log
+
+# Build
+coverage
+demo/stats.json
+demo/build*
