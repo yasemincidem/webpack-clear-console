@@ -1,6 +1,6 @@
 
 # webpack-remove-log
-Console log,error,debug,info stiuations removes from source code during bundling 
+Webpack remove log plugin  removes Console log,error,debug,info stiuations from source code during bundling
 #Installation
 The plugin is available via npm:
 
@@ -8,29 +8,18 @@ $ npm install webpack-remove-log-plugin
 
 #Examples
 
-You can see lots of examples at demo/webpack.config.js.
+You can see an example at demo/webpack.config.js.
 
 #Basic
 
-var path = require("path");
-
-var WebpackRemoveLog = require("../index").WebpackRemoveLog;
-
+var WebpackRemoveLog = require("webpack-remove-log").WebpackRemoveLog;
 
 module.exports = {
+  plugins: [
+    // Other plugins.
 
-    cache: true,
-    context: __dirname,
-    entry: "./main.js",
-    output: {
-        path: path.join(__dirname, "build"),
-        filename: "[hash].main.js"
-    },
-    
-    plugins: [
-        // Try various defaults and options.
-        new WebpackRemoveLog()
-    ]
-    
-};
+    // WebpackRemoveLog plugin removes all statements beginning with console.
+    new WebpackRemoveLog();
+  ]
+}
 
