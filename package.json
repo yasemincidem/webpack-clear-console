@@ -1,6 +1,6 @@
 {
   "name": "webpack-remove-log-plugin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Webpack remove logging plugin",
   "main": "webpack-remove-log.js",
   "devDependencies": {
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yasemincidem/webpack-remove-log-plugin"
+    "url": "https://github.com/yasemincidem/webpack-remove-log"
   },
   "keywords": [
     "webpack"
   ],
   "author": "Yasemin Çidem <yasemincidem@gmail.com>",
   "bugs": {
-    "url": "https://github.com/yasemincidem/webpack-remove-log-plugin"
+    "url": "https://github.com/yasemincidem/webpack-remove-log"
   }
 }
