@@ -16,8 +16,9 @@ var WebpackRemoveLog = require("webpack-remove-log").WebpackRemoveLog;
 
 module.exports = {
   plugins: [
+  
     // Other plugins.
-
+    
     // WebpackRemoveLog plugin removes all statements beginning with console.
     new WebpackRemoveLog();
   ]
