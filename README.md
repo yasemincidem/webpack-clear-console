@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 # webpack-remove-log
 Console log,error,debug,info stiuations removes from source code during bundling 
 #Installation
@@ -35,4 +33,4 @@ module.exports = {
     ]
     
 };
->>>>>>> origin/master
+
