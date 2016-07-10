@@ -5,4 +5,5 @@
 function testFile(){
     console.log("test log");
     console.error("sdfsfd");
+    console.debug("sdfsfd");
 }
