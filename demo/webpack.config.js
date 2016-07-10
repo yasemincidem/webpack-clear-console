@@ -2,7 +2,7 @@
  * Webpack configuration for plugin
  */
 var path = require("path");
-var WebpackRemoveLog = require("../index").WebpackRemoveLog;
+var WebpackClearConsole = require("../index").WebpackClearConsole;
 
 module.exports = {
     cache: true,
@@ -14,6 +14,6 @@ module.exports = {
     },
     plugins: [
         // Try various defaults and options.
-        new WebpackRemoveLog()
+        new WebpackClearConsole()
     ]
 };
