@@ -32,7 +32,7 @@ module.exports = {
  plugins: [
     // Other plugins.
     // WebpackClearConsole plugin removes all statements beginning with console.
-    new WebpackClearConsole();
+    new WebpackClearConsole()
   ]
 }
 ```
