@@ -4,8 +4,9 @@
   "description": "Webpack clear console plugin",
   "main": "webpack-clear-console.js",
   "devDependencies": {
-    "webpack": "^1.12.4",
-    "webpack-dev-server": "^1.12.1"
+    "webpack": "*",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "*"
   },
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
@@ -17,7 +18,11 @@
     "url": "https://github.com/yasemincidem/webpack-clear-console"
   },
   "keywords": [
-    "webpack","console", "log", "debugging", "remove"
+    "webpack",
+    "console",
+    "log",
+    "debugging",
+    "remove"
   ],
   "author": "Yasemin Çidem <yasemincidem@gmail.com>",
   "license": "MIT",
