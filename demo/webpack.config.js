@@ -6,14 +6,18 @@ var WebpackClearConsole = require("../index").WebpackClearConsole;
 
 module.exports = {
     cache: true,
+    mode: "development",
     context: __dirname,
     entry: "./main.js",
     output: {
         path: path.join(__dirname, "build"),
-        filename: "[hash].main.js"
+        filename: "demo.main.js"
     },
     plugins: [
         // Try various defaults and options.
         new WebpackClearConsole()
-    ]
+    ],
+    optimization: {
+      minimize: false
+    }
 };
